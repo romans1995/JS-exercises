@@ -30,11 +30,7 @@ console.log(absolute)
 // or 
 
 const num = -10
-let absolute;
-// your code goes here
-const abs = (num) => 
-  num =  num < 0 ? -num:num;
-
-console.log(abs(num))
+absolute = num < 0 ? -num : num;
+console.log(absolute);
 
 // output 10
