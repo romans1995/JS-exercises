@@ -15,7 +15,7 @@ console.log(absolute)
 
 // or 
 
-const num = -8
+
 let absolute;
 // your code goes here
 if(num < 0){
@@ -29,8 +29,8 @@ console.log(absolute)
 
 // or 
 
-const num = -10
+
 absolute = num < 0 ? -num : num;
 console.log(absolute);
 
-// output 10
+// output 8
