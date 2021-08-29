@@ -1,15 +1,10 @@
-let sum = 0
+let num =-8;
+let absolute;
 // your code goes here
-let value2 = 300
-let value3 = 431;
-let value = 251;
-while (value) {
-    sum += value % 10;
-    value = Math.floor(value / 10);
+if (num < 0){
+    absolute = -num;
+} else {
+    absolute = num
 }
-// for value 
-console.log(sum);
-// output 3 8 8
-    
-
+console.log(absolute)
 
