@@ -62,7 +62,7 @@ const maxh =(halfRanged) =>{
     return maximum;
    }
    console.log(maxh(halfRanged));
-   const minh =(halfRanged) =>{
+   const minh = (halfRanged) =>{
     for(let i = 0; i < halfRanged.length; i++){
         if(minimum> halfRanged[i]){
             minimum =halfRanged[i];
@@ -70,6 +70,7 @@ const maxh =(halfRanged) =>{
     }
     return minimum;
    }
+
    console.log(minh(halfRanged));
-   let halfRanged = (maxh(halfRanged)- minimum);
+   let halfRanged = (maxh(halfRanged)- minh(minimum));
    console.log(halfRanged);
