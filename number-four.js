@@ -26,3 +26,50 @@ const min = (grades) => {
  const gradesSorted = [...grades].sort();
 let median = gradesSorted[gradesSorted.length/2];
 median;
+
+let halfRanged = grades.slice(grades.length/2);
+console.log(halfRanged);
+
+const maxh =(halfRanged) =>{
+    for(let i = 0; i < halfRanged.length; i++){
+        if(maximum < halfRanged[i]){
+            maximum =halfRanged[i];
+        }
+    }
+    return maximum;
+   }
+   console.log(maxh(halfRanged));
+   const minh =(halfRanged) =>{
+    for(let i = 0; i < halfRanged.length; i++){
+        if(minimum> halfRanged[i]){
+            minimum =halfRanged[i];
+        }
+    }
+    return minimum;
+   }
+   console.log(minh(halfRanged));
+   let halfRanged = (maxh(halfRanged)- minimum);
+   console.log(halfRanged);
+
+   let halfRanged = grades.slice(grades.length/2);
+console.log(halfRanged);
+const maxh =(halfRanged) =>{
+    for(let i = 0; i < halfRanged.length; i++){
+        if(maximum < halfRanged[i]){
+            maximum =halfRanged[i];
+        }
+    }
+    return maximum;
+   }
+   console.log(maxh(halfRanged));
+   const minh =(halfRanged) =>{
+    for(let i = 0; i < halfRanged.length; i++){
+        if(minimum> halfRanged[i]){
+            minimum =halfRanged[i];
+        }
+    }
+    return minimum;
+   }
+   console.log(minh(halfRanged));
+   let halfRanged = (maxh(halfRanged)- minimum);
+   console.log(halfRanged);
