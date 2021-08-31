@@ -39,15 +39,13 @@ const min = (grades) => {
     }
     return minimum;
 }
-
- console.log(min(grades)) ;
  let range  = max(grades) - min(grades);
- console.log(range);
+
 // second Mission 
  const gradesSorted = [...grades].sort();
 let median = gradesSorted[gradesSorted.length/2];
 median;
 // thired mission 
 let halfRanged = grades.slice(grades.length/2);
-halfRanged = max(halfRanged) - min(halfRanged)
-console.log(halfRanged)
+halfRanged = max(halfRanged) - min(halfRanged);
+
