@@ -24,14 +24,7 @@ const formula1Champions = [
 let winners = {}
 function countWin(driver) 
 {
-     if (winners.hasOwnProperty(driver)) 
-     {
-        winners[driver] += 1;
-     }
-     else
-     {
-         winners[driver] = 1;
-     }
+    driver in winners? winners[driver] += 1 :winners[driver] = 1;
 }
 formula1Champions.forEach(countWin);
 winners;
